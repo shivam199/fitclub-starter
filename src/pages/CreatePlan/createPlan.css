@@ -1,0 +1,98 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .create-plan-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between cards */
+    max-width: 1200px; /* Adjust to fit the content */
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Light border around the card */
+    padding: 20px;
+    flex: 1; /* Allow cards to grow equally */
+    min-width: 300px; /* Ensure cards don't get too small */
+  }
+  
+  .card h1, .card h2 {
+    color: #333;
+  }
+  
+  .card h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Spacing below header */
+  }
+  
+  .card h2 {
+    text-align: left;
+    margin-bottom: 20px; /* Spacing below header */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .equipment-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .equipment-list li {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
